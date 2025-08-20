@@ -11,7 +11,9 @@ git config --global user.name "JeonghoJang"
 
 mkdir my-volume
 cd my-volume
+
 git clone https://github.com/Je0ngh0/k-intelligence-hackathon-2025.git
+cd k-intelligence-hackathon-2025
 
 uv venv --python 3.12 --seed
 source .venv/bin/activate
